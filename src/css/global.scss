@@ -1,0 +1,47 @@
+@import "base/reset";
+@import "base/layout";
+@import "base/grid";
+@import "base/typography";
+@import "base/colors";
+
+@import "components/header";
+@import "components/footer";
+
+
+@font-face {
+  font-family: 'DI Sans';
+  src: url("../fonts/disans_he-webfont.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'DI Sans';
+  src: url("../fonts/disans_dbd-webfont.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'DI Sans';
+  src: url("../fonts/disans_rg-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'DI Serif';
+  src: url("../fonts/diserif_bd-webfont.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'DI Sans Book';
+  src: url("../fonts/di_sans-book-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal; }
+
+main {
+    display: block;
+    min-height: calc(100vh - 60px);
+}
+  .mb0 {
+    margin-bottom: 0 !important;
+  }

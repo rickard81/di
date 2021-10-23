@@ -1,0 +1,55 @@
+/* ====================================================
+
+ @author: Rickard Andersson, rickard@pxlab.com
+ @content: resets
+
+======================================================= */
+
+/****************************************
+  ==== GLOBAL RESET
+****************************************/
+
+* {
+  margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, th, td {
+  font-size: 1em; font-weight: normal; font-style: normal;
+}
+fieldset, iframe {
+  border: none;
+}
+table {
+  border-collapse: collapse; border-spacing: 0;
+}
+article, footer, header, nav, section, video, canvas {
+  display: block;
+}
+img, img a, img a:hover {
+  border: 0; display: block; max-width: 100%; -ms-interpolation-mode: bicubic;
+}
+iframe {
+  border: 0; display: block; max-width: 100%;
+}
+::-moz-selection {
+  background: #dbcba9; color: #1e222b; text-shadow: none;
+}
+::selection {
+  background: #dbcba9; color: #1e222b; text-shadow: none;
+}
+::-ms-clear {
+  display:none;
+}
+
+/****************************************
+  ==== FORM RESET
+****************************************/
+
+input[type="text"], input[type="email"], input[type="url"], input[type="number"], input[type="password"], select, textarea {
+  outline: none; -webkit-appearance: none; -moz-appearance: none;
+}
+button, input[type="submit"] {
+  border: 0; cursor: pointer; -webkit-appearance: none; -moz-appearance: none;
+}
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner {
+  padding: 0;
+}
